@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/background_blue">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="Score"
+            android:textSize="30dp"
+            android:fontFamily="@font/enchanted_land"
+            android:textColor="@color/dark_green"/>
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="0"
+            android:textSize="30dp"
+            android:fontFamily="@font/enchanted_land"
+            android:textColor="@color/dark_green"/>
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="343dp"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="@font/enchanted_land"
+        android:padding="8dp"
+        android:text="What has roots as nobody sees"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/white" />
+
+    <Button
+        android:id="@+id/answer1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="anwer a"
+        android:textColor="@android:color/black"
+        android:fontFamily="@font/enchanted_land"
+        android:textSize="20dp"
+        android:backgroundTint="@color/off_white"
+        />
+
+    <Button
+        android:id="@+id/answer2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="answer b"
+        android:textColor="@android:color/black"
+        android:fontFamily="@font/enchanted_land"
+        android:textSize="20dp"
+        android:backgroundTint="@color/off_white"/>
+
+    <Button
+        android:id="@+id/answer3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="answer c"
+        android:textColor="@android:color/black"
+        android:fontFamily="@font/enchanted_land"
+        android:textSize="20dp"
+        android:backgroundTint="@color/off_white"/>
+
+
+
+</LinearLayout>
+
+
+
+
